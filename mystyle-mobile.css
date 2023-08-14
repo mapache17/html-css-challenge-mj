@@ -1,0 +1,84 @@
+body {
+    background-color: hsl(0, 0%, 95%);
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.card {
+    width: 180px;
+    justify-content: center;
+    padding: 40px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1);
+
+
+}
+#card-sedans{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 10px 0px 0px;
+}
+#card-suvs{
+    background-color: hsl(184, 100%, 22%);
+}
+#card-luxury{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 0px 10px 10px;
+
+}
+h2 {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display';
+    font-size:35px;
+}
+button {
+    background-color: hsl(0, 0%, 95%);
+    border: 2px solid transparent;    
+    size: 15px;
+    font-family: 'Lexend Deca';
+    font-size:12px;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+#b-sedans {
+    color: hsl(31, 77%, 52%);
+}
+#b-suvs {
+    color: hsl(184, 100%, 22%);
+}
+#b-luxury {
+    color: hsl(179, 100%, 13%);
+}
+p {
+    color: hsl(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca';
+    font-size:12px;
+    line-height: 1.7;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+#b-sedans:hover , #b-sedans:active {
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+    border-color:  hsl(0, 0%, 95%); 
+}
+#b-suvs:hover , #b-suvs:active {
+    background-color:hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    border-color:  hsl(0, 0%, 95%); 
+}
+#b-luxury:hover , #b-luxury:active {
+    background-color:hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    border-color:  hsl(0, 0%, 95%); 
+}
