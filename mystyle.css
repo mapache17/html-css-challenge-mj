@@ -37,7 +37,7 @@ h2 {
 }
 button {
     background-color: hsl(0, 0%, 95%);
-    border: none;
+    border: 2px solid transparent;    
     size: 15px;
     font-family: 'Lexend Deca';
     font-size:12px;
@@ -65,4 +65,19 @@ p {
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+#b-sedans:hover , #b-sedans:active {
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+    border-color:  hsl(0, 0%, 95%); 
+}
+#b-suvs:hover , #b-suvs:active {
+    background-color:hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    border-color:  hsl(0, 0%, 95%); 
+}
+#b-luxury:hover , #b-luxury:active {
+    background-color:hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    border-color:  hsl(0, 0%, 95%); 
 }
