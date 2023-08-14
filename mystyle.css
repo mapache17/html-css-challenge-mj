@@ -6,8 +6,7 @@ body {
     display: flex;
     justify-content: center;
   }
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+
 .card {
     width: 250px;
 }
@@ -22,6 +21,8 @@ body {
 }
 h2 {
     color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display';
+    size:15px;
 }
 button {
     background-color: hsl(0, 0%, 95%);
@@ -29,5 +30,8 @@ button {
 }
 p {
     color: hsl(0, 0%, 100%, 0.75);
-
+    font-family: 'Lexend Deca';
+    size:15px;
 }
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
