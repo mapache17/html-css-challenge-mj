@@ -1,7 +1,7 @@
 # HTML and CSS Challenge MJ
 
 
-## Versión para escritorio
+##  Versión para escritorio
 
 Se puede encontrar en el archivo index.html, y su hoja de estilos es mystyle.css
 
@@ -9,7 +9,7 @@ Se puede encontrar en el archivo index.html, y su hoja de estilos es mystyle.css
 ![image](https://github.com/mapache17/html-css-challenge-mj/assets/91903899/8efac49f-58c4-4c81-a311-07dfd212a399)
 
 
-## Versión para celular
+##  Versión para celular
 
 
 Se puede encontrar en el archivo index-mobile.html, y su hoja de estilos es mystyle-mobile.css
